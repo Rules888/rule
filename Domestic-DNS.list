@@ -1,0 +1,44 @@
+# NAME: Domestic-DNS
+# AUTHOR: Custom
+# DESCRIPTION: 严格核准的国内公共DNS，强制直连，防止软路由死锁
+
+# 🔹 阿里系 (Alidns)
+DOMAIN,dns.alidns.com
+DOMAIN-SUFFIX,dns.alidns.com
+
+# 🔹 腾讯系 (DNSPod)
+DOMAIN,doh.pub
+DOMAIN,sm2.doh.pub
+DOMAIN,doh.dnspod.com
+DOMAIN-SUFFIX,doh.pub
+
+# 🔹 360系
+DOMAIN-SUFFIX,doh.360.cn
+
+# 🔹 其他国内小众/公共安全DNS
+DOMAIN,rubyfish.cn
+DOMAIN,dns.rubyfish.cn
+DOMAIN,doh.pure.onedns.net
+DOMAIN,dot-pure.onedns.net
+DOMAIN,dot.onedns.net
+DOMAIN,doh.onedns.net
+DOMAIN,edns.233py.com
+DOMAIN,i.233py.com
+DOMAIN,sdns.233py.com
+DOMAIN,dns.cfiec.net
+DOMAIN,dns.ipv6dns.com
+
+# 🔹 强制直连的国内DNS IP段
+IP-CIDR,119.29.29.29/32,no-resolve
+IP-CIDR,119.29.107.85/32,no-resolve
+IP-CIDR,223.5.5.5/32,no-resolve
+IP-CIDR,223.6.6.6/32,no-resolve
+IP-CIDR,1.12.12.12/32,no-resolve
+IP-CIDR,114.114.114.114/32,no-resolve
+IP-CIDR,117.50.22.22/32,no-resolve
+IP-CIDR,118.89.110.78/32,no-resolve
+IP-CIDR,220.248.179.9/32,no-resolve
+IP-CIDR,47.96.179.163/32,no-resolve
+IP-CIDR,52.80.66.66/32,no-resolve
+IP-CIDR,58.20.127.170/32,no-resolve
+IP-CIDR,58.20.127.238/32,no-resolve
