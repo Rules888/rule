@@ -1,0 +1,21 @@
+# NAME: CCB-Asia
+# AUTHOR: Custom
+# DESCRIPTION: 中国建设银行（亚洲）CCB Asia 完整分流规则（精细化可剥离版）
+
+# 🔹 建行移动端网关、触屏版、支付安全及网银核心节点
+DOMAIN,touch.ccb.com
+DOMAIN,mobile.asia.ccb.com
+DOMAIN,olb.ccb.com
+DOMAIN,xc.olb3.ccb.com
+DOMAIN,xc.mps.ccb.cn
+
+# 🔹 营销推广与动态静态资源节点 (独立剥离项)
+DOMAIN,adv.ccb.com
+
+# 🔹 建行亚洲专属官方域名后缀
+DOMAIN-SUFFIX,asia.ccb.com
+DOMAIN-SUFFIX,ccbasia.com
+
+# 🔹 关键词通配（自动覆盖各类亚太及香港专属服务接口）
+DOMAIN-KEYWORD,ccbasia
+DOMAIN-KEYWORD,ccb-asia
