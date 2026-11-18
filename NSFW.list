@@ -1,49 +1,139 @@
 # NAME: Adult-Sites
 # AUTHOR: Custom
-# DESCRIPTION: 常见海外成人网站与流媒体分发节点分流规则（适配 Clash / Loon）
+# DESCRIPTION: 纯净版成人站点分流规则
 
-# 🔹 Pornhub 系 (MindGeek / Aylo)
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
+# ==========================================
+# 第一部分：真人成人影视与流媒体 CDN
+# ==========================================
+
+# 🔹 主流视频站 CDN 与关联域名 (不被下方关键词覆盖的部分)
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
-
-# 🔹 XVideos / XNXX 系
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,rdtcdn.com
+DOMAIN-SUFFIX,ypncdn.com
+DOMAIN-SUFFIX,tube8.com
+DOMAIN-SUFFIX,thumbzilla.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xnxx-cdn.com
-
-# 🔹 xHamster 系
 DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,xhcdn.com
 
-# 🔹 OnlyFans 系
+# 🔹 OnlyFans / Fantia / 创作者订阅平台
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,onlyfans.cdn
+DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,kemono.su
 
-# 🔹 RedTube / YouPorn / Tube8 系
-DOMAIN-SUFFIX,redtube.com
-DOMAIN-SUFFIX,rdtcdn.com
-DOMAIN-SUFFIX,youporn.com
-DOMAIN-SUFFIX,ypncdn.com
-DOMAIN-SUFFIX,tube8.com
-
-# 🔹 常见综合与日韩系
+# 🔹 日韩影视站点与数据库
 DOMAIN-SUFFIX,jable.tv
-DOMAIN-SUFFIX,missav.com
-DOMAIN-SUFFIX,missav.ws
-DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,javbus.com
+DOMAIN-SUFFIX,javlibrary.com
+DOMAIN-SUFFIX,supjav.com
+DOMAIN-SUFFIX,njav.tv
+DOMAIN-SUFFIX,javxx.com
+DOMAIN-SUFFIX,kanav.info
+DOMAIN-SUFFIX,7mmtv.sx
+DOMAIN-SUFFIX,avcar.vip
+DOMAIN-SUFFIX,tv-skyairav.cc
+DOMAIN-SUFFIX,db.msin.jp
+DOMAIN-SUFFIX,img.msin.info
+DOMAIN-SUFFIX,xslist.org
+DOMAIN-SUFFIX,myavlive.com
+
+# 🔹 综合成人视频聚合站
+DOMAIN-SUFFIX,3movs.com
+DOMAIN-SUFFIX,4tube.com
+DOMAIN-SUFFIX,alohatube.com
+DOMAIN-SUFFIX,cumlouder.com
+DOMAIN-SUFFIX,dansmovies.com
+DOMAIN-SUFFIX,drtuber.com
+DOMAIN-SUFFIX,emturbovid.com
+DOMAIN-SUFFIX,fapvidhd.com
+DOMAIN-SUFFIX,forhertube.com
+DOMAIN-SUFFIX,fuq.com
+DOMAIN-SUFFIX,fux.com
+DOMAIN-SUFFIX,handjobhub.com
+DOMAIN-SUFFIX,hclips.com
+DOMAIN-SUFFIX,hdhole.com
+DOMAIN-SUFFIX,here.xxx
+DOMAIN-SUFFIX,ixxx.com
+DOMAIN-SUFFIX,lobstertube.com
+DOMAIN-SUFFIX,maturetube.com
+DOMAIN-SUFFIX,megatube.xxx
+DOMAIN-SUFFIX,melonstube.com
+DOMAIN-SUFFIX,nuvid.com
+DOMAIN-SUFFIX,orgasm.com
+DOMAIN-SUFFIX,sexvid.xxx
+DOMAIN-SUFFIX,shameless.com
+DOMAIN-SUFFIX,slutload.com
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,tastyblacks.com
+DOMAIN-SUFFIX,tiava.com
+DOMAIN-SUFFIX,tnaflix.com
+DOMAIN-SUFFIX,tubev.sex
+DOMAIN-SUFFIX,upskirt.tv
+DOMAIN-SUFFIX,vipwank.com
+DOMAIN-SUFFIX,xbabe.com
+DOMAIN-SUFFIX,xxxbunker.com
+DOMAIN-SUFFIX,xxxvideo.best
+DOMAIN-SUFFIX,xxxvideos247.com
+DOMAIN-SUFFIX,vintage-erotic.net
+
+# ==========================================
+# 第二部分：R18 动漫、本子、成人向游戏与文字论坛
+# (如只看真人视频，可直接删除此部分)
+# ==========================================
+
+# 🔹 本子、里番与重口图站
 DOMAIN-SUFFIX,18comic.vip
 DOMAIN-SUFFIX,18comic.org
-DOMAIN-SUFFIX,nhentai.net
-DOMAIN-SUFFIX,e-hentai.org
-DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,jmcomic-creed.club
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hitomi.la
+DOMAIN-SUFFIX,wnacg.com
+DOMAIN-SUFFIX,rule34video.com
+DOMAIN-SUFFIX,rule34.xxx
+DOMAIN-SUFFIX,haho.moe
+DOMAIN-SUFFIX,boards.guro.cx
 
-# 🔹 通用关键词匹配 (覆盖频繁更换的新域名与镜像站)
+# 🔹 二次元 R18 综合/同人游戏资源站
+DOMAIN-SUFFIX,cangku.moe
+DOMAIN-SUFFIX,gmgard.moe
+DOMAIN-SUFFIX,hacg.me
+DOMAIN-SUFFIX,reimu.net
+DOMAIN-SUFFIX,blog.reimu.net
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,2dfan.com
+DOMAIN-SUFFIX,ryuugames.com
+DOMAIN-SUFFIX,cor-games.com
+DOMAIN-SUFFIX,xgames.zone
+DOMAIN-SUFFIX,loverslab.com
+DOMAIN-SUFFIX,chinaavg.com
+DOMAIN-SUFFIX,kimochi.info
+
+# 🔹 成人综合论坛与小黄文站
+DOMAIN-SUFFIX,sehuatang.org
+DOMAIN-SUFFIX,sexinsex.net
+DOMAIN-SUFFIX,cool18.com
+DOMAIN-SUFFIX,south-plus.net
+DOMAIN-SUFFIX,white-plus.net
+DOMAIN-SUFFIX,snow-plus.net
+DOMAIN-SUFFIX,imoutolove.me
+DOMAIN-SUFFIX,xbookcn.net
+DOMAIN-SUFFIX,diyibanzhu.me
+
+# ==========================================
+# 第三部分：安全关键词通配 (自动覆盖同关键词主站与镜像站)
+# ==========================================
 DOMAIN-KEYWORD,pornhub
-DOMAIN-KEYWORD,xvideos
+DOMAIN-KEYWORD,xvideo
 DOMAIN-KEYWORD,javdb
 DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,hentai
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,fc2
+DOMAIN-KEYWORD,cdnstreamwish
+DOMAIN-KEYWORD,zpod
