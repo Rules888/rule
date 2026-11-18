@@ -1,6 +1,12 @@
 # NAME: ICBC-Asia
 # AUTHOR: Custom
-# DESCRIPTION: 中国工商银行（亚洲）ICBC Asia 分流规则
+# DESCRIPTION: 中国工商银行（亚洲）ICBC Asia 分流规则（含港版客户端专属接口）
 
-DOMAIN-SUFFIX,icbcasia.com
+# 🔹 港版客户端专属接口 (挂在总行 icbc.com.cn 下的子域名)
+DOMAIN,mobilehk.icbc.com.cn
+DOMAIN,mobileapm.icbc.com.cn
+DOMAIN,mims.icbc.com.cn
+
+# 🔹 关键词通配 (自动覆盖 icbcasia.com 及 icbc-asia.icbc.com.cn)
 DOMAIN-KEYWORD,icbcasia
+DOMAIN-KEYWORD,icbc-asia
