@@ -2,12 +2,19 @@
 # AUTHOR: Custom
 # DESCRIPTION: 中国建设银行（亚洲）CCB Asia 完整分流规则（精细化可剥离版）
 
-# 🔹 建行移动端网关、触屏版、支付安全及网银核心节点
+# 🔹 建行移动端网关、触屏版、总行移动端入口及网银核心节点
 DOMAIN,touch.ccb.com
 DOMAIN,mobile.asia.ccb.com
+DOMAIN,mobile.ccb.com
 DOMAIN,olb.ccb.com
 DOMAIN,xc.olb3.ccb.com
+
+# 🔹 支付安全验证与底层加密传输节点
 DOMAIN,xc.mps.ccb.cn
+DOMAIN,xc.mp3.ccb.cn
+
+# 🔹 消息推送服务节点 (独立剥离项)
+DOMAIN,push6.msgpush.ccb.com
 
 # 🔹 营销推广与动态静态资源节点 (独立剥离项)
 DOMAIN,adv.ccb.com
