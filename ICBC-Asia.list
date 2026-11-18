@@ -1,0 +1,6 @@
+# NAME: ICBC-Asia
+# AUTHOR: Custom
+# DESCRIPTION: 中国工商银行（亚洲）ICBC Asia 分流规则
+
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN-KEYWORD,icbcasia
